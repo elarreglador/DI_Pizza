@@ -1,3 +1,5 @@
+![Imagen](https://github.com/elarreglador/Pizza/blob/main/SCREENSHOTS/Pizza.png)
+
 ************************************
 ACERCA DEL AUTOR
 ************************************
