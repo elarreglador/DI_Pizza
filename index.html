@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+    <title id="titulo">Pedidos pizza</title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./css/photon.min.css">
+</header>
+
+<body>
+    <div class="window">
+        <header class="toolbar toolbar-header">
+            <h1 class="title">
+                Haga su pedido
+            </h1>
+        </header>
+        <div class="window-content">
+            <div class="pane-group">
+                <div class="window-content">
+                    <div class="pane-group">
+
+                        <div class="pane" id="panel01">
+                            <div class="form-group" style="margin: 10px;">
+                                <img id="imagen" class="img-circle media-object pull-left" src="./img/1.png" width="32"
+                                    height="32">
+                                <br><br>
+                                <span class="icon icon-users"></span>
+                                <input type="text" id="nombre" class="form-control">
+
+                                <span class="icon icon-phone"></span>
+                                <input type="text" id="telf" class="form-control">
+
+                                <span class="icon icon-address"></span>
+                                <textarea class="form-control" id="direccion" rows="10"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="pane" id="panel02">
+                            <div class="form-group" style="margin: 10px;">
+                                <img id="imagen" class="img-circle media-object pull-left" src="./img/2.png" width="32"
+                                    height="32">
+                                <br><br>
+                                <input type="radio" id="radio1" name="tamanyo" value="L"> Pequena (L)
+                                <img id="imagen" style="float: left;" class="img-circle media-object pull-left"
+                                    src="./img/pizza.jpg" width="30" height="30"><br><br>
+                                <input type="radio" id="radio2" name="tamanyo" value="M" checked> Mediana (M)
+                                <img id="imagen" style="float: left;" class="img-circle media-object pull-left"
+                                    src="./img/pizza.jpg" width="40" height="40"><br><br>
+                                <input type="radio" id="radio3" name="tamanyo" value="XL"> Grande (XL)
+                                <img id="imagen" style="float: left;" class="img-circle media-object pull-left"
+                                    src="./img/pizza.jpg" width="50" height="50"><br><br>
+                                <br>
+
+                                <hr style="width: 90%; margin:auto;"> <!-- linea horizontal --><br>
+                                <img id="imagen" class="img-circle media-object pull-left" src="./img/3.png" width="32"
+                                    height="32">
+                                <br><br><br>
+                                <input type="radio" id="radio4" name="masa"checked> fina
+                                <img id="imagen" style="float: right;" class="img-circle media-object pull-left"
+                                    src="./img/fina.png" width="90" height="50">
+                                <br><br><br><br>
+                                <input type="radio" id="radio5" name="masa"> gruesa
+                                <img id="imagen" style="float: right;" class="img-circle media-object pull-left"
+                                    src="./img/gruesa.png" width="90" height="50">
+                            </div>
+                        </div>
+
+                        <div class="pane" id="panel03">
+                            ...
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="toolbar toolbar-footer">
+            <button class="btn btn-primary pull-right" id="btnAceptar">
+                <span class="icon icon-heart-empty"> </span>
+                . Aceptar
+            </button>
+            <button class="btn btn-primary pull-right" id="btnCancelar">
+                <span class="icon icon-trash"></span>
+                . Cancelar
+            </button>
+        </footer>
+    </div>
+    <script src="./functions.js"></script>
+</body>
+
+</html>
