@@ -16,7 +16,13 @@ ACERCA DE LA APLICACION
 ************************************
 Esta aplicacion de escritorio basada en electron te permite pedir pizza gratis!
 
-En realidad solo genera un PDF con el resumen del pedido. Lo siento.
+3 CONFESIONES QUE NO CREERAS:
+
+1) En realidad solo genera un PDF con el resumen del pedido. Lo siento.
+
+2) En realidad no se si genera el PDF, parece que hay problemas de versiones y bajo linux mint no me esta funcionando.
+
+3) Si, este repositorio es un ClickBait, que pasa!?
 
 ************************************
 LANZAR LA APP 
